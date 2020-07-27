@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.email {
+  padding: 10px;
+  border: 1px solid #eee;
+  box-shadow: 3px 3px #ccc;
+  margin: 5px;
+ }
+
+ .leftright{
+  float: right;
+  width: 20%;
+  display: flex; 
+  text-align: center;
+ }
+
+ .leftright>*{
+    width: 30%;
+    margin: 0 3% 0;
+ }
+
+ .logout{
+  display: flex;
+  width: 100%;
+  text-align: center;
+ }
+ .logout > *{
+    width: 13%;
+    border: 1px solid black;
+    margin: 0 6% 0;
+    padding-bottom: 1%;
+ }
